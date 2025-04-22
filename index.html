@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramazon Ergashev - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
+</head>
+<body class="light-mode">
+    <main>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./programmer.png" alt="Ramazon Ergashev" width="80">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Ramazon Ergashev">Ramazon Ergashev</h1>
+                    <p class="title">Full-Stack Developer & AI Enthusiast</p>
+                </div>
+                <button class="info-more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info-more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mailto:ramazon@example.com" class="contact-link">ramazon@example.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+998993500820" class="contact-link">+998 99 350 0820</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2010-08-21">August 21, 2010</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+                            <address>Yangiyer, Syrdarya, Uzbekistan</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-github"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li class="social-item"><a href="#" class="social-link"><ion-icon name="logo-telegram"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <button class="theme-toggle-btn" onclick="toggleTheme()">
+                <ion-icon name="moon-outline"></ion-icon>
+                <span>Toggle Theme</span>
+            </button>
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><button class="navbar-link active" data-nav-link>About</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Resume</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Portfolio</button></li>
+                    <li class="navbar-item"><button class="navbar-link" data-nav-link>Contact</button></li>
+                </ul>
+            </nav>
+
+            <article class="about active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">About Me</h2>
+                </header>
+                <section class="about-text">
+                    <p>I’m a Full-Stack Developer from Yangiyer, Uzbekistan, passionate about building scalable web applications and exploring AI technologies. With expertise in Python, Django, Node.js, and Next.js, I create robust and user-friendly solutions.</p>
+                    <p>My work focuses on delivering high-quality code, leveraging tools like PostgreSQL, Docker, and Git for efficient development and deployment. I’ve built Telegram bots, AI-driven applications, and dynamic web platforms, always aiming to solve real-world problems with innovative tech.</p>
+                </section>
+                <section class="service">
+                    <h3 class="h3 service-title">What I Do</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/ZqgqrqzG/icon-dev.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Full-Stack Development</h4>
+                                <p class="service-item-text">Building end-to-end web applications using Django, Node.js, and Next.js with PostgreSQL.</p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/0NL8zHpx/icon-photo.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">AI & Machine Learning</h4>
+                                <p class="service-item-text">Developing AI-driven features and integrating machine learning models into applications.</p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/xjLdzYxZ/icon-app.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Telegram Bots</h4>
+                                <p class="service-item-text">Creating interactive and automated Telegram bots for various use cases.</p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="https://i.postimg.cc/4389jZkP/icon-design.png" alt="icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">DevOps & Deployment</h4>
+                                <p class="service-item-text">Containerizing applications with Docker and deploying them to cloud platforms.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="skills">
+                    <h3 class="h3 skills-title">My Skills</h3>
+                    <ul class="skills-list">
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Python</h5>
+                                <data value="90">90%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" data-width="90"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Django & DRF</h5>
+                                <data value="85">85%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" data-width="85"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Node.js & Next.js</h5>
+                                <data value="80">80%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" data-width="80"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">PostgreSQL</h5>
+                                <data value="75">75%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" data-width="75"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">Docker & Deployment</h5>
+                                <data value="70">70%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" data-width="70"></div>
+                            </div>
+                        </li>
+                        <li class="skills-item">
+                            <div class="title-wrapper">
+                                <h5 class="h5">AI & Telegram Bots</h5>
+                                <data value="65">65%</data>
+                            </div>
+                            <div class="skills-progress-bg">
+                                <div class="skills-progress-fill" data-width="65"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="resume" data-page="resume">
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Self-Taught Developer</h4>
+                            <span>2020 - Present</span>
+                            <p class="timeline-text">Mastered Python, Django, Node.js, and Next.js through online courses, projects, and hands-on practice. Learned AI concepts and built Telegram bots.</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">High School</h4>
+                            <span>2016 - 2020</span>
+                            <p class="timeline-text">Developed an early interest in programming, focusing on HTML, CSS, and JavaScript during high school projects.</p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
+                        <h3 class="h3">Experience</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Freelance Full-Stack Developer</h4>
+                            <span>2022 - Present</span>
+                            <p class="timeline-text">Developed web applications using Django and Next.js, integrated APIs with Django REST Framework, and deployed projects using Docker.</p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Telegram Bot Developer</h4>
+                            <span>2021 - 2022</span>
+                            <p class="timeline-text">Built and maintained Telegram bots for automation and user interaction, using Python and Node.js.</p>
+                        </li>
+                    </ol>
+                </section>
+            </article>
+
+            <article class="portfolio" data-page="portfolio">
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+                <section class="projects">
+                    <ul class="filter-list">
+                        <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+                        <li class="filter-item"><button data-filter-btn>Web Development</button></li>
+                        <li class="filter-item"><button data-filter-btn>Applications</button></li>
+                        <li class="filter-item"><button data-filter-btn>AI & Bots</button></li>
+                    </ul>
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                            <div class="select-value" data-select-value>Select Category</div>
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+                        </button>
+                        <ul class="select-list">
+                            <li class="select-item"><button data-select-item>All</button></li>
+                            <li class="select-item"><button data-select-item>Web Development</button></li>
+                            <li class="select-item"><button data-select-item>Applications</button></li>
+                            <li class="select-item"><button data-select-item>AI & Bots</button></li>
+                        </ul>
+                    </div>
+                    <ul class="project-list">
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/qRHpHMyd/project-1.jpg" alt="E-Commerce Platform" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">E-Commerce Platform</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="web development">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/bNrcM2Wt/project-2.png" alt="Task Manager API" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Task Manager API</h3>
+                                <p class="project-category">Web Development</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="applications">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/dtpXxNGb/project-4.png" alt="Next.js Dashboard" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Next.js Dashboard</h3>
+                                <p class="project-category">Applications</p>
+                            </a>
+                        </li>
+                        <li class="project-item active" data-filter-item data-category="ai & bots">
+                            <a href="#">
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+                                    <img src="https://i.postimg.cc/rw2j4B1w/project-8.jpg" alt="Telegram Quiz Bot" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Telegram Quiz Bot</h3>
+                                <p class="project-category">AI & Bots</p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </article>
+
+            <article class="contact" data-page="contact">
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+                <section class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.0308613135134!2d68.8181370747964!3d40.27519047146192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38af2202973b7759%3A0x6dfec44ff6401b2a!2sYangiyer%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1706782000000"
+                                width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+                    <form class="form" data-form>
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                            <input type="email" name="email" class="form-input" placeholder="Email Address" required data-form-input>
+                        </div>
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+                        <button class="form-btn" type="submit" data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section>
+            </article>
+        </div>
+
+        <!-- Success Modal -->
+        <div class="modal" id="success-modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal()">&times;</span>
+                <h3>Message Sent!</h3>
+                <p>Thank you for reaching out. This is a demo, so your message hasn't been sent, but the form works!</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
