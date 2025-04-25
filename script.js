@@ -1,14 +1,15 @@
 "use strict";
 
 // Sidebar toggle
-const elementToggleFunc = function (elem) {
-  elem.classList.toggle("active");
-};
 const sidebar = document.querySelector("[data-sidebar]");
 const sidebarBtn = document.querySelector("[data-sidebar-btn]");
 sidebarBtn.addEventListener("click", function () {
   elementToggleFunc(sidebar);
 });
+
+const elementToggleFunc = function (elem) {
+  elem.classList.toggle("active");
+};
 
 // Filter select and filtering options
 const select = document.querySelector("[data-select]");
