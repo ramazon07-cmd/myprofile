@@ -398,6 +398,8 @@ article.active {
     white-space: normal; /* Allow wrapping */
     word-wrap: break-word; /* Ensure long words break */
     max-width: 100%; /* Prevent overflow */
+    overflow-wrap: break-word;
+    text-align: center;
 }
 
 .info-more-btn {
